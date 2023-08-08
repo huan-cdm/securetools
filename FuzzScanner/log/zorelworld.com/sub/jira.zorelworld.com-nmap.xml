@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Mar 12 23:22:57 2022 as: nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/jira.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 jira.zorelworld.com -->
+<nmaprun scanner="nmap" args="nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/jira.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 jira.zorelworld.com" start="1647098577" startstr="Sat Mar 12 23:22:57 2022" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="1,11,13,15,17,19,21-22,80,443,992,1000,5555,8443,8888,9999-10001,60010"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1647098581" endtime="1647098748"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.43" addrtype="ipv4"/>
+<hostnames>
+<hostname name="jira.zorelworld.com" type="user"/>
+<hostname name="43.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="12">
+<extrareasons reason="no-responses" count="12"/>
+</extraports>
+<extraports state="closed" count="5">
+<extrareasons reason="resets" count="5"/>
+</extraports>
+<port protocol="tcp" portid="5555"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="SoftEther VPN httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:university_of_tsukuba:softether_vpn</cpe></service></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="235"/><service name="https-alt" product="HTTP Server 1.0" servicefp="SF-Port8443-TCP:V=7.60%T=SSL%I=7%D=3/12%Time=622CBAE3%P=x86_64-pc-linux-gnu%r(GetRequest,1F5D,&quot;HTTP/1\.1\x20200\x20OK\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:17:36\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x207458\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20SESSIONID=hAAAAPvuPRazIP5JYN9pDMU2C2t0sbQuU3iPBzg6yJE=&amp;hAAAAHsSwky0/iF1/U\+2bw==&amp;HUAWEI\x20&amp;langfrombrows=&amp;copyright=2014-2019;httponly;\x20secure\r\n\r\n\xef\xbb\xbf&lt;!Doctype\x20html&gt;\r\n&lt;html&gt;\r\n\t&lt;head&gt;\r\n\t\t&lt;title&gt;&lt;/title&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Content-Type\&quot;\x20content=\&quot;text/html;\x20charset=UTF-8\&quot;\x20/&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Expires\&quot;\x20content=\&quot;0\&quot;&gt;&lt;/meta&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Pragma\&quot;\x20content=\&quot;no-cache\&quot;&gt;&lt;/meta&gt;\x20\r\n\t\t&lt;meta\x20http-equiv=\&quot;Cache-control\&quot;\x20content=\&quot;no-cache\&quot;&gt;&lt;/meta&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Cache\&quot;\x20con&quot;)%r(HTTPOptions,1DB,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:17:37\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x2052\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\n&lt;body&gt;&lt;h1&gt;HTTP/1\.1\x20404\x20Object\x20Not\x20Found\n&lt;/h1&gt;&lt;/body&gt;&quot;)%r(RTSPRequest,1DB,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:17:42\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x2052\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\n&lt;body&gt;&lt;h1&gt;HTTP/1\.1\x20404\x20Object\x20Not\x20Found\n&lt;/h1&gt;&lt;/body&gt;&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  GetRequest: &#xa;    HTTP/1.1 200 OK&#xa;    Date: SUN, 12 Mar 2022 23:17:36&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 7458&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Set-Cookie: SESSIONID=hAAAAPvuPRazIP5JYN9pDMU2C2t0sbQuU3iPBzg6yJE=&amp;hAAAAHsSwky0/iF1/U+2bw==&amp;HUAWEI &amp;langfrombrows=&amp;copyright=2014-2019;httponly; secure&#xa;    &lt;!Doctype html&gt;&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&#xa;    &lt;title&gt;&lt;/title&gt;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt; &#xa;    &lt;meta http-equiv=&quot;Cache-control&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Cache&quot; con&#xa;  HTTPOptions: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:17:37&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;&#xa;  RTSPRequest: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:17:42&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;"><elem key="GetRequest">&#xa;    HTTP/1.1 200 OK&#xa;    Date: SUN, 12 Mar 2022 23:17:36&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 7458&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Set-Cookie: SESSIONID=hAAAAPvuPRazIP5JYN9pDMU2C2t0sbQuU3iPBzg6yJE=&amp;hAAAAHsSwky0/iF1/U+2bw==&amp;HUAWEI &amp;langfrombrows=&amp;copyright=2014-2019;httponly; secure&#xa;    &lt;!Doctype html&gt;&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&#xa;    &lt;title&gt;&lt;/title&gt;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt; &#xa;    &lt;meta http-equiv=&quot;Cache-control&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Cache&quot; con</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:17:37&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:17:42&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;</elem>
+</script><script id="http-server-header" output="HTTP Server 1.0"><elem>HTTP Server 1.0</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="5555"/>
+<portused state="closed" proto="tcp" portid="13"/>
+<portused state="closed" proto="udp" portid="36348"/>
+<osmatch name="Linux 4.0" accuracy="94" line="63815">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="94" line="64145">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11 - 4.1" accuracy="90" line="60658">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="89" line="51565">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 or 3.10" accuracy="88" line="54050">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.12" accuracy="88" line="60412">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="88" line="60811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="87" line="53534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.39" accuracy="87" line="53631">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="86" line="60357">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="86"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="186394" lastboot="Thu Mar 10 19:39:14 2022"/>
+<distance value="17"/>
+<tcpsequence index="263" difficulty="Good luck!" values="6409A2D4,49D78CBA,5CB2E48E,7FBA446,921D72EE,A48C6360"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="B1BD320,B1BD386,B1BD3EA,B1BD44D,B1BD4B0,B1BD516"/>
+<times srtt="37438" rttvar="5973" to="100000"/>
+</host>
+<runstats><finished time="1647098748" timestr="Sat Mar 12 23:25:48 2022" elapsed="174.15" summary="Nmap done at Sat Mar 12 23:25:48 2022; 1 IP address (1 host up) scanned in 174.15 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,14 @@
+ir.zorelworld.com
+update.zorelworld.com
+url.zorelworld.com
+jira.zorelworld.com
+cloud.zorelworld.com
+nas.zorelworld.com
+ti.zorelworld.com
+mail.zorelworld.com
+hao123.zorelworld.com
+www.zorelworld.com
+kb.zorelworld.com
+crm.zorelworld.com
+sandbox.zorelworld.com
+upgrade.zorelworld.com

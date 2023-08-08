@@ -1,0 +1,3 @@
+ir.zorelworld.com
+update.zorelworld.com
+url.zorelworld.com

@@ -1,0 +1,256 @@
+2022/03/13 00:00:42 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/13 00:00:42 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/13 00:00:42 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/13 00:00:42 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/13 00:00:42 [I] [root.go:209] frps started successfully
+2022/03/13 00:04:28 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/13 00:04:28 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/13 00:04:28 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/13 00:04:28 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/13 00:04:28 [I] [root.go:209] frps started successfully
+2022/03/13 00:04:54 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/13 00:04:54 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/13 00:05:00 [I] [dashboard_api.go:185] Http request: [/api/proxy/tcp]
+2022/03/13 00:05:00 [I] [dashboard_api.go:179] Http response [/api/proxy/tcp]: code [200]
+2022/03/13 00:05:01 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/13 00:05:01 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/13 00:05:02 [I] [dashboard_api.go:185] Http request: [/api/proxy/udp]
+2022/03/13 00:05:02 [I] [dashboard_api.go:179] Http response [/api/proxy/udp]: code [200]
+2022/03/13 00:05:12 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/13 00:05:12 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/13 00:12:30 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/13 00:12:30 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/13 00:12:30 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/13 00:12:30 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/13 00:12:30 [I] [root.go:209] frps started successfully
+2022/03/13 00:13:11 [I] [service.go:449] [ca84e7b5393ece51] client login info: ip [221.218.211.160:4451] version [0.40.0] hostname [] os [windows] arch [amd64]
+2022/03/13 00:13:11 [I] [tcp.go:64] [ca84e7b5393ece51] [ssh] tcp proxy listen port [5008]
+2022/03/13 00:13:11 [I] [control.go:465] [ca84e7b5393ece51] new proxy [ssh] success
+2022/03/13 00:13:28 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50753]
+2022/03/13 00:13:31 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50757]
+2022/03/13 00:13:31 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50756]
+2022/03/13 00:13:38 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50763]
+2022/03/13 00:13:41 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50764]
+2022/03/13 00:13:41 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50765]
+2022/03/13 00:13:41 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50766]
+2022/03/13 00:13:41 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50767]
+2022/03/13 00:13:41 [I] [proxy.go:179] [ca84e7b5393ece51] [ssh] get a user connection [221.218.211.160:50768]
+2022/03/13 00:13:54 [I] [control.go:307] [ca84e7b5393ece51] control writer is closing
+2022/03/13 00:13:54 [I] [proxy.go:88] [ca84e7b5393ece51] [ssh] proxy closing
+2022/03/13 00:13:54 [W] [proxy.go:176] [ca84e7b5393ece51] [ssh] listener is closed: accept tcp [::]:5008: use of closed network connection
+2022/03/13 00:13:54 [I] [control.go:396] [ca84e7b5393ece51] client exit success
+2022/03/14 14:31:57 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/14 14:31:57 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/14 14:31:57 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/14 14:31:57 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/14 14:31:57 [I] [root.go:209] frps started successfully
+2022/03/14 14:34:25 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/14 14:35:08 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/14 14:35:08 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/14 14:35:08 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/14 14:35:08 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/14 14:35:08 [I] [root.go:209] frps started successfully
+2022/03/14 14:36:00 [I] [service.go:449] [a536844c1e935dcb] client login info: ip [117.61.29.97:56444] version [0.40.0] hostname [] os [windows] arch [amd64]
+2022/03/14 14:36:00 [I] [tcp.go:64] [a536844c1e935dcb] [ssh] tcp proxy listen port [5008]
+2022/03/14 14:36:00 [I] [control.go:465] [a536844c1e935dcb] new proxy [ssh] success
+2022/03/14 14:36:06 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56425]
+2022/03/14 14:36:18 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56412]
+2022/03/14 14:36:18 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56413]
+2022/03/14 14:36:30 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56440]
+2022/03/14 14:36:33 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56390]
+2022/03/14 14:36:34 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56393]
+2022/03/14 14:36:34 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56392]
+2022/03/14 14:36:34 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56394]
+2022/03/14 14:36:34 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56391]
+2022/03/14 14:36:46 [I] [proxy.go:179] [a536844c1e935dcb] [ssh] get a user connection [117.61.29.97:56395]
+2022/03/14 17:45:41 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/14 17:45:41 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/14 17:45:41 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/14 17:45:41 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/14 17:45:41 [I] [root.go:209] frps started successfully
+2022/03/14 17:46:55 [I] [service.go:449] [700d8cfa8572cd79] client login info: ip [117.61.29.97:56396] version [0.40.0] hostname [] os [windows] arch [amd64]
+2022/03/14 17:46:55 [I] [tcp.go:64] [700d8cfa8572cd79] [ssh] tcp proxy listen port [5008]
+2022/03/14 17:46:55 [I] [control.go:465] [700d8cfa8572cd79] new proxy [ssh] success
+2022/03/14 17:47:08 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56403]
+2022/03/14 17:47:28 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56429]
+2022/03/14 17:47:29 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56430]
+2022/03/14 17:47:46 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56442]
+2022/03/14 17:48:00 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56386]
+2022/03/14 17:48:07 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56390]
+2022/03/14 17:48:07 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56389]
+2022/03/14 17:48:07 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56388]
+2022/03/14 17:48:07 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56392]
+2022/03/14 17:48:07 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56391]
+2022/03/14 17:48:26 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56404]
+2022/03/14 17:48:27 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56403]
+2022/03/14 17:48:56 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/14 17:48:56 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/14 17:49:01 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/14 17:49:01 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/14 17:49:02 [I] [dashboard_api.go:70] Http request: [/api/serverinfo]
+2022/03/14 17:49:02 [I] [dashboard_api.go:63] Http response [/api/serverinfo]: code [200]
+2022/03/14 17:49:02 [I] [dashboard_api.go:185] Http request: [/api/proxy/https]
+2022/03/14 17:49:02 [I] [dashboard_api.go:179] Http response [/api/proxy/https]: code [200]
+2022/03/14 17:49:03 [I] [dashboard_api.go:185] Http request: [/api/proxy/stcp]
+2022/03/14 17:49:03 [I] [dashboard_api.go:179] Http response [/api/proxy/stcp]: code [200]
+2022/03/14 17:49:04 [I] [dashboard_api.go:185] Http request: [/api/proxy/sudp]
+2022/03/14 17:49:04 [I] [dashboard_api.go:179] Http response [/api/proxy/sudp]: code [200]
+2022/03/14 17:49:22 [I] [dashboard_api.go:185] Http request: [/api/proxy/tcp]
+2022/03/14 17:49:22 [I] [dashboard_api.go:179] Http response [/api/proxy/tcp]: code [200]
+2022/03/14 17:49:45 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [117.61.29.97:56447]
+2022/03/14 17:50:34 [I] [dashboard_api.go:185] Http request: [/api/proxy/tcp]
+2022/03/14 17:50:34 [I] [dashboard_api.go:179] Http response [/api/proxy/tcp]: code [200]
+2022/03/14 17:50:37 [I] [dashboard_api.go:319] Http request: [/api/traffic/ssh]
+2022/03/14 17:50:37 [I] [dashboard_api.go:313] Http response [/api/traffic/ssh]: code [200]
+2022/03/14 17:52:33 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:49510]
+2022/03/14 17:52:35 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:50028]
+2022/03/14 17:52:36 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:50172]
+2022/03/14 17:52:38 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:50180]
+2022/03/14 17:52:40 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:50186]
+2022/03/14 17:52:42 [I] [proxy.go:179] [700d8cfa8572cd79] [ssh] get a user connection [49.232.143.48:50192]
+2022/03/17 21:36:45 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/17 21:36:46 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/17 21:36:46 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/17 21:36:46 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/17 21:36:46 [I] [root.go:209] frps started successfully
+2022/03/17 21:37:09 [I] [service.go:449] [f4c993e0c0b13f09] client login info: ip [221.218.211.160:1033] version [0.40.0] hostname [] os [windows] arch [amd64]
+2022/03/17 21:37:09 [I] [tcp.go:64] [f4c993e0c0b13f09] [ssh] tcp proxy listen port [5008]
+2022/03/17 21:37:09 [I] [control.go:465] [f4c993e0c0b13f09] new proxy [ssh] success
+2022/03/17 21:37:18 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61453]
+2022/03/17 21:37:18 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61454]
+2022/03/17 21:37:32 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:7715]
+2022/03/17 21:37:32 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:7716]
+2022/03/17 21:37:33 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:7721]
+2022/03/17 21:37:40 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61473]
+2022/03/17 21:37:52 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:7735]
+2022/03/17 21:38:14 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61502]
+2022/03/17 21:38:22 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61511]
+2022/03/17 21:38:47 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61538]
+2022/03/17 21:40:14 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61584]
+2022/03/17 21:40:16 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61592]
+2022/03/17 21:40:19 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61593]
+2022/03/17 21:42:03 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61765]
+2022/03/17 21:42:03 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61766]
+2022/03/17 21:42:05 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61772]
+2022/03/17 21:42:05 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61771]
+2022/03/17 21:42:08 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61791]
+2022/03/17 21:42:08 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [221.218.211.160:61792]
+2022/03/17 21:55:35 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:8350]
+2022/03/17 21:55:38 [I] [proxy.go:179] [f4c993e0c0b13f09] [ssh] get a user connection [115.47.132.252:8352]
+2022/03/17 22:21:20 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/17 22:21:20 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/17 22:21:20 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/17 22:21:20 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/17 22:21:20 [I] [root.go:209] frps started successfully
+2022/03/21 18:18:03 [I] [root.go:200] frps uses config file: frps.ini
+2022/03/21 18:18:03 [I] [service.go:193] frps tcp listen on 0.0.0.0:7000
+2022/03/21 18:18:03 [I] [service.go:251] https service listen on 0.0.0.0:7001
+2022/03/21 18:18:03 [I] [service.go:292] Dashboard listen on 0.0.0.0:7500
+2022/03/21 18:18:03 [I] [root.go:209] frps started successfully
+2022/03/21 18:18:22 [I] [service.go:449] [930d90d3dc112f0d] client login info: ip [117.61.29.41:27921] version [0.40.0] hostname [] os [windows] arch [amd64]
+2022/03/21 18:18:22 [I] [tcp.go:64] [930d90d3dc112f0d] [ssh] tcp proxy listen port [5008]
+2022/03/21 18:18:22 [I] [control.go:465] [930d90d3dc112f0d] new proxy [ssh] success
+2022/03/21 18:18:50 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47752]
+2022/03/21 18:18:56 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47758]
+2022/03/21 18:18:56 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47762]
+2022/03/21 18:18:57 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47766]
+2022/03/21 18:18:57 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47774]
+2022/03/21 18:18:57 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47778]
+2022/03/21 18:18:57 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47782]
+2022/03/21 18:18:57 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47786]
+2022/03/21 18:18:58 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47790]
+2022/03/21 18:18:58 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47796]
+2022/03/21 18:18:58 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47800]
+2022/03/21 18:19:05 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47844]
+2022/03/21 18:19:05 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47848]
+2022/03/21 18:19:06 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47858]
+2022/03/21 18:19:06 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47862]
+2022/03/21 18:19:07 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47868]
+2022/03/21 18:19:07 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47876]
+2022/03/21 18:19:08 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47880]
+2022/03/21 18:19:08 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [34.96.245.71:47884]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27951]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27952]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27954]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27957]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27956]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27955]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27960]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27961]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27959]
+2022/03/21 18:19:11 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27962]
+2022/03/21 18:19:12 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27963]
+2022/03/21 18:19:12 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27964]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27966]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27965]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27904]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27967]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27905]
+2022/03/21 18:19:13 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27906]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27907]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27909]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27908]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27910]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27913]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27911]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27912]
+2022/03/21 18:19:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27914]
+2022/03/21 18:19:21 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27918]
+2022/03/21 18:19:21 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27919]
+2022/03/21 18:19:21 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27920]
+2022/03/21 18:19:21 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27921]
+2022/03/21 18:19:22 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27922]
+2022/03/21 18:19:23 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27923]
+2022/03/21 18:19:23 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27924]
+2022/03/21 18:19:23 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27925]
+2022/03/21 18:19:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27927]
+2022/03/21 18:19:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27928]
+2022/03/21 18:19:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27929]
+2022/03/21 18:19:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27930]
+2022/03/21 18:19:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27931]
+2022/03/21 18:19:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27932]
+2022/03/21 18:19:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27933]
+2022/03/21 18:19:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27934]
+2022/03/21 18:19:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27935]
+2022/03/21 18:19:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27936]
+2022/03/21 18:19:30 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27937]
+2022/03/21 18:19:30 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27938]
+2022/03/21 18:19:32 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27939]
+2022/03/21 18:19:33 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27940]
+2022/03/21 18:19:33 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27941]
+2022/03/21 18:19:33 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27942]
+2022/03/21 18:19:36 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27944]
+2022/03/21 18:19:36 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27945]
+2022/03/21 18:19:36 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27946]
+2022/03/21 18:19:36 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27947]
+2022/03/21 18:19:39 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27949]
+2022/03/21 18:19:40 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27950]
+2022/03/21 18:19:40 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27951]
+2022/03/21 18:19:40 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27952]
+2022/03/21 18:19:41 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27953]
+2022/03/21 18:19:41 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27954]
+2022/03/21 18:19:43 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27956]
+2022/03/21 18:19:43 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27957]
+2022/03/21 18:19:47 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27959]
+2022/03/21 18:19:48 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27962]
+2022/03/21 18:19:48 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27960]
+2022/03/21 18:20:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27939]
+2022/03/21 18:20:14 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27940]
+2022/03/21 18:20:15 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27938]
+2022/03/21 18:20:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27946]
+2022/03/21 18:20:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27948]
+2022/03/21 18:20:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27949]
+2022/03/21 18:20:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27950]
+2022/03/21 18:20:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27947]
+2022/03/21 18:20:55 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27956]
+2022/03/21 18:20:55 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27957]
+2022/03/21 18:21:10 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27966]
+2022/03/21 18:21:10 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27967]
+2022/03/21 18:21:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27910]
+2022/03/21 18:21:24 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27911]
+2022/03/21 18:21:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27912]
+2022/03/21 18:21:25 [I] [proxy.go:179] [930d90d3dc112f0d] [ssh] get a user connection [117.61.29.41:27913]
+2022/03/21 18:21:26 [I] [control.go:307] [930d90d3dc112f0d] control writer is closing
+2022/03/21 18:21:26 [I] [proxy.go:88] [930d90d3dc112f0d] [ssh] proxy closing
+2022/03/21 18:21:26 [W] [proxy.go:176] [930d90d3dc112f0d] [ssh] listener is closed: accept tcp [::]:5008: use of closed network connection
+2022/03/21 18:21:26 [I] [control.go:396] [930d90d3dc112f0d] client exit success

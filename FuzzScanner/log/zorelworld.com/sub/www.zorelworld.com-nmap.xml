@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Mar 12 23:22:54 2022 as: nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/www.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 www.zorelworld.com -->
+<nmaprun scanner="nmap" args="nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/www.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 www.zorelworld.com" start="1647098574" startstr="Sat Mar 12 23:22:54 2022" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="1,11,13,15,17,19,21-22,80,443,992,1000,5555,8443,8888,9999-10001,60010"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1647098577" endtime="1647098605"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="182.92.154.36" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.zorelworld.com" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="10">
+<extrareasons reason="no-responses" count="10"/>
+</extraports>
+<extraports state="closed" count="7">
+<extrareasons reason="resets" count="7"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="40"/><service name="ssh" product="OpenSSH" version="5.3" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3</cpe></service><script id="banner" output="SSH-2.0-OpenSSH_5.3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="40"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="36646"/>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="96" line="53811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39" accuracy="95" line="55328">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6.39</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="93" line="53781">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="53017">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.1" accuracy="92" line="53716">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 3.8" accuracy="91" line="62123">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.22 - 2.6.36" accuracy="91" line="49107">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.8" accuracy="91" line="60500">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Tandberg Video Conference System" accuracy="91" line="96199">
+<osclass type="webcam" vendor="Tandberg" osfamily="embedded" accuracy="91"/>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.39" accuracy="91" line="53674">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="598594" lastboot="Sun Mar  6 01:06:51 2022"/>
+<distance value="21"/>
+<tcpsequence index="261" difficulty="Good luck!" values="8075F075,4898191A,39840361,D64BFE9A,74D5813F,8FC3B8CA"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="23AD9704,23AD9764,23AD97C8,23AD982E,23AD9895,23AD98F6"/>
+<times srtt="41417" rttvar="5167" to="100000"/>
+</host>
+<runstats><finished time="1647098605" timestr="Sat Mar 12 23:23:25 2022" elapsed="33.78" summary="Nmap done at Sat Mar 12 23:23:25 2022; 1 IP address (1 host up) scanned in 33.78 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

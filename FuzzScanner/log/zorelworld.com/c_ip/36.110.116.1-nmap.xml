@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Mar 12 23:41:53 2022 as: nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/c_ip/36.110.116.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,23,25,26,30,31,32,33,34,35,36,37,38,39,43,69,70,79,80,81,82,83,84,85,88,98,100,102,110,111,113,119,123,135,139,143,161,179,199,214,264,280,322,389,407,443,444,449,465,497,500,502,505,510,514,515,517,518,523,540,548,554,587,591,616,620,623,626,628,631,636,666,731,771,782,783,789,873,888,898,900,901,902,989,990,992,993,994,995,1000,1001,1010,1022,1023,1026,1040,1041,1042,1043,1080,1091,1098,1099,1200,1212,1214,1220,1234,1241,1248,1302,1311,1314,1344,1400,1419,1432,1434,1443,1467,1471,1501,1503,1505,1521,1604,1610,1611,1666,1687,1688,1720,1723,1830,1900,1901,1911,1947,1962,1967,2000,2001,2002,2010,2181,2222,3000,3128,3306,3310,3388,3389,4000,4040,4369,4433,4443,5000,5001,5038,5050,5060,5222,5269,5357,5400,5555,5601,5901,5985,5986,6060,6080,6379,6443,6666,6699,7001,7002,7070,7443,7547,7777,8000,8001,8002,8003,8005,8006,8007,8008,8009,8010,8080,8081,8082,8083,8085,8086,8087,8088,8089,8090,8098,8194,8443,8500,8554,8880,8881,8887,8888,8899,9000,9001,9002,9003,9080,9090,9091,9100,9200,9300,9527,9981,9999,10000,10001,10005,10030,10443,12345,15000,18080,20000,27015,27017,30444,49152,49153,50000,60010 36.110.116.1 36.110.116.2 36.110.116.3 36.110.116.4 36.110.116.5 36.110.116.6 36.110.116.7 36.110.116.8 36.110.116.9 36.110.116.10 36.110.116.11 36.110.116.12 36.110.116.13 36.110.116.14 36.110.116.15 36.110.116.16 36.110.116.17 36.110.116.18 36.110.116.19 36.110.116.20 36.110.116.21 36.110.116.22 36.110.116.23 36.110.116.24 36.110.116.25 36.110.116.26 36.110.116.27 36.110.116.28 36.110.116.29 36.110.116.30 36.110.116.31 36.110.116.32 36.110.116.33 36.110.116.34 36.110.116.35 36.110.116.36 36.110.116.37 36.110.116.38 36.110.116.39 36.110.116.40 36.110.116.41 36.110.116.42 36.110.116.43 36.110.116.44 36.110.116.45 36.110.116.46 36.110.116.47 36.110.116.48 36.110.116.49 36.110.116.50 36.110.116.51 36.110.116.52 36.110.116.53 36.110.116.54 36.110.116.55 36.110.116.56 36.110.116.57 36.110.116.58 36.110.116.59 36.110.116.60 36.110.116.61 36.110.116.62 36.110.116.63 36.110.116.64 36.110.116.65 36.110.116.66 36.110.116.67 36.110.116.68 36.110.116.69 36.110.116.70 36.110.116.71 36.110.116.72 36.110.116.73 36.110.116.74 36.110.116.75 36.110.116.76 36.110.116.77 36.110.116.78 36.110.116.79 36.110.116.80 36.110.116.81 36.110.116.82 36.110.116.83 36.110.116.84 36.110.116.85 36.110.116.86 36.110.116.87 36.110.116.88 36.110.116.89 36.110.116.90 36.110.116.91 36.110.116.92 36.110.116.93 36.110.116.94 36.110.116.95 36.110.116.96 36.110.116.97 36.110.116.98 36.110.116.99 36.110.116.100 36.110.116.101 36.110.116.102 36.110.116.103 36.110.116.104 36.110.116.105 36.110.116.106 36.110.116.107 36.110.116.108 36.110.116.109 36.110.116.110 36.110.116.111 36.110.116.112 36.110.116.113 36.110.116.114 36.110.116.115 36.110.116.116 36.110.116.117 36.110.116.118 36.110.116.119 36.110.116.120 36.110.116.121 36.110.116.122 36.110.116.123 36.110.116.124 36.110.116.125 36.110.116.126 36.110.116.127 36.110.116.128 36.110.116.129 36.110.116.130 36.110.116.131 36.110.116.132 36.110.116.133 36.110.116.134 36.110.116.135 36.110.116.136 36.110.116.137 36.110.116.138 36.110.116.139 36.110.116.140 36.110.116.141 36.110.116.142 36.110.116.143 36.110.116.144 36.110.116.145 36.110.116.146 36.110.116.147 36.110.116.148 36.110.116.149 36.110.116.150 36.110.116.151 36.110.116.152 36.110.116.153 36.110.116.154 36.110.116.155 36.110.116.156 36.110.116.157 36.110.116.158 36.110.116.159 36.110.116.160 36.110.116.161 36.110.116.162 36.110.116.163 36.110.116.164 36.110.116.165 36.110.116.166 36.110.116.167 36.110.116.168 36.110.116.169 36.110.116.170 36.110.116.171 36.110.116.172 36.110.116.173 36.110.116.174 36.110.116.175 36.110.116.176 36.110.116.177 36.110.116.178 36.110.116.179 36.110.116.180 36.110.116.181 36.110.116.182 36.110.116.183 36.110.116.184 36.110.116.185 36.110.116.186 36.110.116.187 36.110.116.188 36.110.116.189 36.110.116.190 36.110.116.191 36.110.116.192 36.110.116.193 36.110.116.194 36.110.116.195 36.110.116.196 36.110.116.197 36.110.116.198 36.110.116.199 36.110.116.200 36.110.116.201 36.110.116.202 36.110.116.203 36.110.116.204 36.110.116.205 36.110.116.206 36.110.116.207 36.110.116.208 36.110.116.209 36.110.116.210 36.110.116.211 36.110.116.212 36.110.116.213 36.110.116.214 36.110.116.215 36.110.116.216 36.110.116.217 36.110.116.218 36.110.116.219 36.110.116.220 36.110.116.221 36.110.116.222 36.110.116.223 36.110.116.224 36.110.116.225 36.110.116.226 36.110.116.227 36.110.116.228 36.110.116.229 36.110.116.230 36.110.116.231 36.110.116.232 36.110.116.233 36.110.116.234 36.110.116.235 36.110.116.236 36.110.116.237 36.110.116.238 36.110.116.239 36.110.116.240 36.110.116.241 36.110.116.242 36.110.116.243 36.110.116.244 36.110.116.245 36.110.116.246 36.110.116.247 36.110.116.248 36.110.116.249 36.110.116.250 36.110.116.251 36.110.116.252 36.110.116.253 36.110.116.254 -->
+<nmaprun scanner="nmap" args="nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/c_ip/36.110.116.1-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,23,25,26,30,31,32,33,34,35,36,37,38,39,43,69,70,79,80,81,82,83,84,85,88,98,100,102,110,111,113,119,123,135,139,143,161,179,199,214,264,280,322,389,407,443,444,449,465,497,500,502,505,510,514,515,517,518,523,540,548,554,587,591,616,620,623,626,628,631,636,666,731,771,782,783,789,873,888,898,900,901,902,989,990,992,993,994,995,1000,1001,1010,1022,1023,1026,1040,1041,1042,1043,1080,1091,1098,1099,1200,1212,1214,1220,1234,1241,1248,1302,1311,1314,1344,1400,1419,1432,1434,1443,1467,1471,1501,1503,1505,1521,1604,1610,1611,1666,1687,1688,1720,1723,1830,1900,1901,1911,1947,1962,1967,2000,2001,2002,2010,2181,2222,3000,3128,3306,3310,3388,3389,4000,4040,4369,4433,4443,5000,5001,5038,5050,5060,5222,5269,5357,5400,5555,5601,5901,5985,5986,6060,6080,6379,6443,6666,6699,7001,7002,7070,7443,7547,7777,8000,8001,8002,8003,8005,8006,8007,8008,8009,8010,8080,8081,8082,8083,8085,8086,8087,8088,8089,8090,8098,8194,8443,8500,8554,8880,8881,8887,8888,8899,9000,9001,9002,9003,9080,9090,9091,9100,9200,9300,9527,9981,9999,10000,10001,10005,10030,10443,12345,15000,18080,20000,27015,27017,30444,49152,49153,50000,60010 36.110.116.1 36.110.116.2 36.110.116.3 36.110.116.4 36.110.116.5 36.110.116.6 36.110.116.7 36.110.116.8 36.110.116.9 36.110.116.10 36.110.116.11 36.110.116.12 36.110.116.13 36.110.116.14 36.110.116.15 36.110.116.16 36.110.116.17 36.110.116.18 36.110.116.19 36.110.116.20 36.110.116.21 36.110.116.22 36.110.116.23 36.110.116.24 36.110.116.25 36.110.116.26 36.110.116.27 36.110.116.28 36.110.116.29 36.110.116.30 36.110.116.31 36.110.116.32 36.110.116.33 36.110.116.34 36.110.116.35 36.110.116.36 36.110.116.37 36.110.116.38 36.110.116.39 36.110.116.40 36.110.116.41 36.110.116.42 36.110.116.43 36.110.116.44 36.110.116.45 36.110.116.46 36.110.116.47 36.110.116.48 36.110.116.49 36.110.116.50 36.110.116.51 36.110.116.52 36.110.116.53 36.110.116.54 36.110.116.55 36.110.116.56 36.110.116.57 36.110.116.58 36.110.116.59 36.110.116.60 36.110.116.61 36.110.116.62 36.110.116.63 36.110.116.64 36.110.116.65 36.110.116.66 36.110.116.67 36.110.116.68 36.110.116.69 36.110.116.70 36.110.116.71 36.110.116.72 36.110.116.73 36.110.116.74 36.110.116.75 36.110.116.76 36.110.116.77 36.110.116.78 36.110.116.79 36.110.116.80 36.110.116.81 36.110.116.82 36.110.116.83 36.110.116.84 36.110.116.85 36.110.116.86 36.110.116.87 36.110.116.88 36.110.116.89 36.110.116.90 36.110.116.91 36.110.116.92 36.110.116.93 36.110.116.94 36.110.116.95 36.110.116.96 36.110.116.97 36.110.116.98 36.110.116.99 36.110.116.100 36.110.116.101 36.110.116.102 36.110.116.103 36.110.116.104 36.110.116.105 36.110.116.106 36.110.116.107 36.110.116.108 36.110.116.109 36.110.116.110 36.110.116.111 36.110.116.112 36.110.116.113 36.110.116.114 36.110.116.115 36.110.116.116 36.110.116.117 36.110.116.118 36.110.116.119 36.110.116.120 36.110.116.121 36.110.116.122 36.110.116.123 36.110.116.124 36.110.116.125 36.110.116.126 36.110.116.127 36.110.116.128 36.110.116.129 36.110.116.130 36.110.116.131 36.110.116.132 36.110.116.133 36.110.116.134 36.110.116.135 36.110.116.136 36.110.116.137 36.110.116.138 36.110.116.139 36.110.116.140 36.110.116.141 36.110.116.142 36.110.116.143 36.110.116.144 36.110.116.145 36.110.116.146 36.110.116.147 36.110.116.148 36.110.116.149 36.110.116.150 36.110.116.151 36.110.116.152 36.110.116.153 36.110.116.154 36.110.116.155 36.110.116.156 36.110.116.157 36.110.116.158 36.110.116.159 36.110.116.160 36.110.116.161 36.110.116.162 36.110.116.163 36.110.116.164 36.110.116.165 36.110.116.166 36.110.116.167 36.110.116.168 36.110.116.169 36.110.116.170 36.110.116.171 36.110.116.172 36.110.116.173 36.110.116.174 36.110.116.175 36.110.116.176 36.110.116.177 36.110.116.178 36.110.116.179 36.110.116.180 36.110.116.181 36.110.116.182 36.110.116.183 36.110.116.184 36.110.116.185 36.110.116.186 36.110.116.187 36.110.116.188 36.110.116.189 36.110.116.190 36.110.116.191 36.110.116.192 36.110.116.193 36.110.116.194 36.110.116.195 36.110.116.196 36.110.116.197 36.110.116.198 36.110.116.199 36.110.116.200 36.110.116.201 36.110.116.202 36.110.116.203 36.110.116.204 36.110.116.205 36.110.116.206 36.110.116.207 36.110.116.208 36.110.116.209 36.110.116.210 36.110.116.211 36.110.116.212 36.110.116.213 36.110.116.214 36.110.116.215 36.110.116.216 36.110.116.217 36.110.116.218 36.110.116.219 36.110.116.220 36.110.116.221 36.110.116.222 36.110.116.223 36.110.116.224 36.110.116.225 36.110.116.226 36.110.116.227 36.110.116.228 36.110.116.229 36.110.116.230 36.110.116.231 36.110.116.232 36.110.116.233 36.110.116.234 36.110.116.235 36.110.116.236 36.110.116.237 36.110.116.238 36.110.116.239 36.110.116.240 36.110.116.241 36.110.116.242 36.110.116.243 36.110.116.244 36.110.116.245 36.110.116.246 36.110.116.247 36.110.116.248 36.110.116.249 36.110.116.250 36.110.116.251 36.110.116.252 36.110.116.253 36.110.116.254" start="1647099713" startstr="Sat Mar 12 23:41:53 2022" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="249" services="1,11,13,15,17,19,21-23,25-26,30-39,43,69-70,79-85,88,98,100,102,110-111,113,119,123,135,139,143,161,179,199,214,264,280,322,389,407,443-444,449,465,497,500,502,505,510,514-515,517-518,523,540,548,554,587,591,616,620,623,626,628,631,636,666,731,771,782-783,789,873,888,898,900-902,989-990,992-995,1000-1001,1010,1022-1023,1026,1040-1043,1080,1091,1098-1099,1200,1212,1214,1220,1234,1241,1248,1302,1311,1314,1344,1400,1419,1432,1434,1443,1467,1471,1501,1503,1505,1521,1604,1610-1611,1666,1687-1688,1720,1723,1830,1900-1901,1911,1947,1962,1967,2000-2002,2010,2181,2222,3000,3128,3306,3310,3388-3389,4000,4040,4369,4433,4443,5000-5001,5038,5050,5060,5222,5269,5357,5400,5555,5601,5901,5985-5986,6060,6080,6379,6443,6666,6699,7001-7002,7070,7443,7547,7777,8000-8003,8005-8010,8080-8083,8085-8090,8098,8194,8443,8500,8554,8880-8881,8887-8888,8899,9000-9003,9080,9090-9091,9100,9200,9300,9527,9981,9999-10001,10005,10030,10443,12345,15000,18080,20000,27015,27017,30444,49152-49153,50000,60010"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1647099718" endtime="1647099937"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.41" addrtype="ipv4"/>
+<hostnames>
+<hostname name="41.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="248">
+<extrareasons reason="no-responses" count="248"/>
+</extraports>
+<port protocol="tcp" portid="179"><state state="open" reason="syn-ack" reason_ttl="237"/><service name="bgp" extrainfo="connection rejected" method="probed" conf="10"/><script id="banner" output="\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xF&#xa;F\x00\x15\x03\x06\x05"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="179"/>
+<osmatch name="Cisco 1921 router (IOS 15.1)" accuracy="90" line="17333">
+<osclass type="router" vendor="Cisco" osfamily="IOS" osgen="15.X" accuracy="90"><cpe>cpe:/h:cisco:1921_integrated_services_router</cpe><cpe>cpe:/o:cisco:ios:15.1</cpe></osclass>
+</osmatch>
+<osmatch name="IBM AIX 4.3" accuracy="87" line="35324">
+<osclass type="general purpose" vendor="IBM" osfamily="AIX" osgen="4.X" accuracy="87"><cpe>cpe:/o:ibm:aix:4.3</cpe></osclass>
+</osmatch>
+<osmatch name="Huawei VRP 5.160" accuracy="86" line="35201">
+<osclass type="switch" vendor="Huawei" osfamily="VRP" osgen="5.X" accuracy="86"><cpe>cpe:/o:huawei:vrp:5.160</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.4.18" accuracy="85" line="42384">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="85"><cpe>cpe:/o:linux:linux_kernel:2.4.18</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="260" difficulty="Good luck!" values="670E3BD1,57EA4EDD,F2ACBD17,FF9946E0,BECCF5A8,DB0D7F82"/>
+<ipidsequence class="Incremental" values="6DF4,6DF7,6DF9,6DFB,6DFE,6E00"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="37319" rttvar="7181" to="100000"/>
+</host>
+<host starttime="1647099718" endtime="1647099937"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.43" addrtype="ipv4"/>
+<hostnames>
+<hostname name="43.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="238">
+<extrareasons reason="resets" count="238"/>
+</extraports>
+<extraports state="filtered" count="8">
+<extrareasons reason="no-responses" count="8"/>
+</extraports>
+<port protocol="tcp" portid="992"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="SoftEther VPN httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:university_of_tsukuba:softether_vpn</cpe></service></port>
+<port protocol="tcp" portid="5555"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="SoftEther VPN httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:university_of_tsukuba:softether_vpn</cpe></service></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="236"/><service name="https-alt" product="HTTP Server 1.0" servicefp="SF-Port8443-TCP:V=7.60%T=SSL%I=7%D=3/12%Time=622CBF73%P=x86_64-pc-linux-gnu%r(GetRequest,1F5D,&quot;HTTP/1\.1\x20200\x20OK\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:37:04\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x207458\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20SESSIONID=ugAAAD19FsQi1Uk65DElrPWKT7xqCh3OG9P8lh0s47M=&amp;ugAAAD5/mjBTEimrKaURKw==&amp;HUAWEI\x20&amp;langfrombrows=&amp;copyright=2014-2019;httponly;\x20secure\r\n\r\n\xef\xbb\xbf&lt;!Doctype\x20html&gt;\r\n&lt;html&gt;\r\n\t&lt;head&gt;\r\n\t\t&lt;title&gt;&lt;/title&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Content-Type\&quot;\x20content=\&quot;text/html;\x20charset=UTF-8\&quot;\x20/&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Expires\&quot;\x20content=\&quot;0\&quot;&gt;&lt;/meta&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Pragma\&quot;\x20content=\&quot;no-cache\&quot;&gt;&lt;/meta&gt;\x20\r\n\t\t&lt;meta\x20http-equiv=\&quot;Cache-control\&quot;\x20content=\&quot;no-cache\&quot;&gt;&lt;/meta&gt;\r\n\t\t&lt;meta\x20http-equiv=\&quot;Cache\&quot;\x20con&quot;)%r(HTTPOptions,1DB,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:37:05\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x2052\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\n&lt;body&gt;&lt;h1&gt;HTTP/1\.1\x20404\x20Object\x20Not\x20Found\n&lt;/h1&gt;&lt;/body&gt;&quot;)%r(RTSPRequest,1DB,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20SUN,\x2012\x20Mar\x202022\x2023:37:10\r\nConnection:\x20\r\nServer:\x20HTTP\x20Server\x201\.0\r\nContent-Length:\x2052\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;mode=block\r\nContent-Security-Policy:\x20default-src\x20&apos;self&apos;;script-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20&apos;unsafe-eval&apos;;style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;;img-src\x20&apos;self&apos;\x20data:;frame-ancestors\x20&apos;self&apos;;\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r\n&lt;body&gt;&lt;h1&gt;HTTP/1\.1\x20404\x20Object\x20Not\x20Found\n&lt;/h1&gt;&lt;/body&gt;&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  GetRequest: &#xa;    HTTP/1.1 200 OK&#xa;    Date: SUN, 12 Mar 2022 23:37:04&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 7458&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Set-Cookie: SESSIONID=ugAAAD19FsQi1Uk65DElrPWKT7xqCh3OG9P8lh0s47M=&amp;ugAAAD5/mjBTEimrKaURKw==&amp;HUAWEI &amp;langfrombrows=&amp;copyright=2014-2019;httponly; secure&#xa;    &lt;!Doctype html&gt;&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&#xa;    &lt;title&gt;&lt;/title&gt;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt; &#xa;    &lt;meta http-equiv=&quot;Cache-control&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Cache&quot; con&#xa;  HTTPOptions: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:37:05&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;&#xa;  RTSPRequest: &#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:37:10&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;"><elem key="GetRequest">&#xa;    HTTP/1.1 200 OK&#xa;    Date: SUN, 12 Mar 2022 23:37:04&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 7458&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Set-Cookie: SESSIONID=ugAAAD19FsQi1Uk65DElrPWKT7xqCh3OG9P8lh0s47M=&amp;ugAAAD5/mjBTEimrKaURKw==&amp;HUAWEI &amp;langfrombrows=&amp;copyright=2014-2019;httponly; secure&#xa;    &lt;!Doctype html&gt;&#xa;    &lt;html&gt;&#xa;    &lt;head&gt;&#xa;    &lt;title&gt;&lt;/title&gt;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt; &#xa;    &lt;meta http-equiv=&quot;Cache-control&quot; content=&quot;no-cache&quot;&gt;&lt;/meta&gt;&#xa;    &lt;meta http-equiv=&quot;Cache&quot; con</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:37:05&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 404 Not Found&#xa;    Date: SUN, 12 Mar 2022 23:37:10&#xa;    Connection: &#xa;    Server: HTTP Server 1.0&#xa;    Content-Length: 52&#xa;    X-Frame-Options: SAMEORIGIN&#xa;    X-Content-Type-Options: nosniff&#xa;    X-XSS-Protection: 1;mode=block&#xa;    Content-Security-Policy: default-src &apos;self&apos;;script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;;style-src &apos;self&apos; &apos;unsafe-inline&apos;;img-src &apos;self&apos; data:;frame-ancestors &apos;self&apos;;&#xa;    Content-Type: text/html; charset=utf-8&#xa;    &lt;body&gt;&lt;h1&gt;HTTP/1.1 404 Object Not Found&#xa;    &lt;/h1&gt;&lt;/body&gt;</elem>
+</script><script id="http-server-header" output="HTTP Server 1.0"><elem>HTTP Server 1.0</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="992"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="35133"/>
+<osmatch name="Linux 4.0" accuracy="92" line="63815">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.0</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.4" accuracy="92" line="64145">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11 - 4.1" accuracy="90" line="60658">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 or 3.10" accuracy="89" line="54050">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="88" line="51565">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 3.12" accuracy="88" line="60412">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.13" accuracy="88" line="60811">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:3.13</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.35" accuracy="87" line="53534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 2.6.39" accuracy="87" line="53631">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="87" line="60357">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="87"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="187583" lastboot="Thu Mar 10 19:39:14 2022"/>
+<distance value="18"/>
+<tcpsequence index="250" difficulty="Good luck!" values="A9B0E7F9,492E054D,DC1E8B45,5CED6CE6,B427D446,4371E3DF"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="B2DD7D3,B2DD835,B2DD89B,B2DD8FE,B2DD965,B2DD9C8"/>
+<times srtt="38729" rttvar="2541" to="100000"/>
+</host>
+<host starttime="1647099937" endtime="1647100232"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.114" addrtype="ipv4"/>
+<hostnames>
+<hostname name="114.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="247">
+<extrareasons reason="no-responses" count="247"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="44"/><service name="snmp" servicefp="SF-Port161-TCP:V=7.60%I=7%D=3/12%Time=622CC0D1%P=x86_64-pc-linux-gnu%r(X11Probe,35C,&quot;l\0\x0b\0\0\0\0\0P\x03\0\0%\xf9\x81eu\xe9\^\xd3B\xf0T\0\x7f&lt;\xd0\xa3\x84\xbcF\xafK\xd7\xa6\0\xcb\x08\xbd\xf3\x98C\xfb#@l\x9a~\xf8\x90\xd8\n&lt;\x84\xd8\x8b\xa9\xee\xee\xe0\xfa\x8eH\xd2\xdb\x16\xf9\xe2o\xaf\xe4\x13\x8a\xb8\xa7%\xfe\xd1\xae\x16\x9e\x01\xfc\xd7\xa3\0\x98\x1d\x92\xb1e\xad\xfc\xbaC\xdf\xef\x949\x0f\x954\xd1\xcdr\xf2\x9d\x89\)\x9e\x06s\x8e\x06W\x13\xa3eP\xd2;\xf3\xcb\xa0\xdf2%\xcbeG\xc8\xc5\x95\x8c\xeeD\xf2\*=\xc7\xec\xe9o\+\xdf\]\xb8&amp;\x02C\x83\xb2t\xec\xf3\x0c~\xf7&amp;\\\xb8\x17n\xaa\x80\xaf\xfd\x98\(\(\xf5\xefi\xf0\|\|A\x06\xf7\x14L\x9b\x94a\x92\x89y\xc8\xd0\xea\xbe\x1e&gt;\)\xcb\x14\x84X\x14W\xb0B\xb3Qv\xac\xb3Z\xc9\rL\xf3\xc0v\xe6\xfc\x1e\x13\)I0\xbc\x9dL\xdd\x940\xa6\x9f\x15\xb7\xb3\x90\xdb\xf3I\x16D\x1f&amp;\x9c\xbc\x94\xbc\0\xd88r\x20j\xf4\xfd\r\xd2\x19\xe4VTk&apos;\xcb\xc1\&quot;=\xb8\x8ee\xfc:\xcd&amp;j\x05\xf0r\xdd\x85\xd7J\&quot;\xbc6\x83HQ\xa1\x9e\x82\xdb\xc3\^\xad\xe5\xa81w\xf8\xf3\xd2t\xe9\xb0\x0eY\xa4wg\xefm\xbf\xba\x96b;\xf6\xbc\x81\xd8\xb2\xaa\xe5\x05\xa5\xf7\x1f\x8c\xd6\xb0\xa4\x8b8S\x98\]E\r\xdfA\x1c\xe2\xd9\xda\xc2\x85/\xd6-\xc5\x9fN\x19\xb0\x1e\x10\xa8\x16j\xd4\xc4\x93\xae\x9c\xfe\^\r\x10L\xcew\xbb\x87\xeb\xd6\xc8\xe7\xbfr\xe1JADZ\xb3\xee\xb5\xa1\xcc\x02w\x07\x80\xb7KzN\xf7R\xfb\x18nP\x055\|\xa5\xb0\x03z\xff\x8c\xb5zEg\x90\xbc\xab\x13\xe0\x0b@\xec\x9f\t\x87\x03\x05\xbb\xf5\x0c\xac1g\x06@%\)\xceq\)\xbdF\x9d3\xbdC:\xc1\&quot;\xa0\xa16J\x1a1\x1d\xf5fvWh\xc3\x89\x89,\r\xa5\xec_\xb3\xc4\xc05\xa9W\x11\xd3\xaax6wFE\x9f:\xcd\[b\+v\xd8:\xfaN=,\xea\xe0GmE\x05\xe7\x99\x8f\x96\xde4\x03\x9a\?\r\xc1&lt;\xe5\x9a\\\xc6\xc2\xbd\)\xf6\xbb\xaeo\x85z\xf8\xae&apos;x\xfc\xc0\)\xd2\xe9%\xc6\xfe\]\xb2\xc4\xffZv\xbd&lt;\xa5C\xaas&apos;s\xbeg\x7f\x10\x8f@\xfaq\xfe\x13cQ\x0e\xa3\x107A7-\xca5\]V\xd9E\xac\xe4xG\x05=\xd2\xe8z\xc6\x83\x85\xcdX\x05\xc2\xbd\xf8t\x081\xc4od\xd7&apos;\xf3\xab6W\x02\x16\|\x0e\xb8@\xbaXF=\]\xde\x9c\x07`K\x8e\xaa!\xcc1A\xae\xc7\x11\xec3\xd11\x1a\xa9\x90\xf1\xf7\+2%\x9b%A\x13\xf8Z\xfa\xf9\]O\xb3\x0bM\^\xb7\xc7~\xed\xc6\xaai\x83\x91\xb1\xd2\xebq\xd7E\xd6\xe4\xc9&amp;\xc9\&quot;\xb3\[j\)k\x8c\x83\$-:A\xc6\x18\xeb\xa5\xc8\x17\xc8\]\x89I\x91\xe0\x96\xd8\xd9Z\)S5\xa6\x18QSs\x9d\x95\x18\xe4\xdcX\xeeb\x0bn\xd4\xea=\)ko\xef\x1a\xa1m\xfb\xf6\?\xf4\xb8\xbe\xe4`m\xc9\x96\xe6\x16\xeak!\xb7&amp;\xc1XNvD\xae\\\x03m\x18\xd9\x8a\xd9E\xb9h\x0c\xf0\xe8\xfa\x98\x83o\xd9\x1d;\xf6\&quot;\x83TB\x05d\xc8\xae\x85\x9f\xce\x03\xc4\x7f\xcf`Tr\xe3q\x038\x17s\x8f\xbd4\|pU\xb6\[~rbJ0JlE\(\xab\xbb\x85\xf9\x07\xdb\xf6\x952N\xb1\x9a\xea\x97VWV\x7fY\xf7B\xc7\xd1\*\x9b\xff\x11\xe4\xd0J\xa7\xb2Zp&apos;\xf4\xeb%j&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  X11Probe: &#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE("><elem key="X11Probe">&#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE(</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="161"/>
+<portused state="closed" proto="tcp" portid="3128"/>
+<osmatch name="Linux 3.12 - 4.4" accuracy="96" line="60737">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="92" line="58653">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="91" line="53738">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="91" line="44025">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="91" line="44064">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="91" line="61271">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="90" line="60339">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="90" line="32611">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="90"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="ProVision-ISR security DVR" accuracy="89" line="56920">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+<osmatch name="DD-WRT v24-sp2 (Linux 3.10)" accuracy="89" line="63618">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="255" difficulty="Good luck!" values="E4FAEB1B,B0DADE50,7F17C7F1,8369D553,4221AD6D,77BC9175"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="37219" rttvar="781" to="100000"/>
+</host>
+<host starttime="1647099937" endtime="1647100232"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="246">
+<extrareasons reason="no-responses" count="246"/>
+</extraports>
+<extraports state="closed" count="1">
+<extrareasons reason="reset" count="1"/>
+</extraports>
+<port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="44"/><service name="snmp" servicefp="SF-Port161-TCP:V=7.60%I=7%D=3/12%Time=622CC0D1%P=x86_64-pc-linux-gnu%r(X11Probe,35C,&quot;l\0\x0b\0\0\0\0\0P\x03\0\0%\xf9\x81eu\xe9\^\xd3B\xf0T\0\x7f&lt;\xd0\xa3\x84\xbcF\xafK\xd7\xa6\0\xcb\x08\xbd\xf3\x98C\xfb#@l\x9a~\xf8\x90\xd8\n&lt;\x84\xd8\x8b\xa9\xee\xee\xe0\xfa\x8eH\xd2\xdb\x16\xf9\xe2o\xaf\xe4\x13\x8a\xb8\xa7%\xfe\xd1\xae\x16\x9e\x01\xfc\xd7\xa3\0\x98\x1d\x92\xb1e\xad\xfc\xbaC\xdf\xef\x949\x0f\x954\xd1\xcdr\xf2\x9d\x89\)\x9e\x06s\x8e\x06W\x13\xa3eP\xd2;\xf3\xcb\xa0\xdf2%\xcbeG\xc8\xc5\x95\x8c\xeeD\xf2\*=\xc7\xec\xe9o\+\xdf\]\xb8&amp;\x02C\x83\xb2t\xec\xf3\x0c~\xf7&amp;\\\xb8\x17n\xaa\x80\xaf\xfd\x98\(\(\xf5\xefi\xf0\|\|A\x06\xf7\x14L\x9b\x94a\x92\x89y\xc8\xd0\xea\xbe\x1e&gt;\)\xcb\x14\x84X\x14W\xb0B\xb3Qv\xac\xb3Z\xc9\rL\xf3\xc0v\xe6\xfc\x1e\x13\)I0\xbc\x9dL\xdd\x940\xa6\x9f\x15\xb7\xb3\x90\xdb\xf3I\x16D\x1f&amp;\x9c\xbc\x94\xbc\0\xd88r\x20j\xf4\xfd\r\xd2\x19\xe4VTk&apos;\xcb\xc1\&quot;=\xb8\x8ee\xfc:\xcd&amp;j\x05\xf0r\xdd\x85\xd7J\&quot;\xbc6\x83HQ\xa1\x9e\x82\xdb\xc3\^\xad\xe5\xa81w\xf8\xf3\xd2t\xe9\xb0\x0eY\xa4wg\xefm\xbf\xba\x96b;\xf6\xbc\x81\xd8\xb2\xaa\xe5\x05\xa5\xf7\x1f\x8c\xd6\xb0\xa4\x8b8S\x98\]E\r\xdfA\x1c\xe2\xd9\xda\xc2\x85/\xd6-\xc5\x9fN\x19\xb0\x1e\x10\xa8\x16j\xd4\xc4\x93\xae\x9c\xfe\^\r\x10L\xcew\xbb\x87\xeb\xd6\xc8\xe7\xbfr\xe1JADZ\xb3\xee\xb5\xa1\xcc\x02w\x07\x80\xb7KzN\xf7R\xfb\x18nP\x055\|\xa5\xb0\x03z\xff\x8c\xb5zEg\x90\xbc\xab\x13\xe0\x0b@\xec\x9f\t\x87\x03\x05\xbb\xf5\x0c\xac1g\x06@%\)\xceq\)\xbdF\x9d3\xbdC:\xc1\&quot;\xa0\xa16J\x1a1\x1d\xf5fvWh\xc3\x89\x89,\r\xa5\xec_\xb3\xc4\xc05\xa9W\x11\xd3\xaax6wFE\x9f:\xcd\[b\+v\xd8:\xfaN=,\xea\xe0GmE\x05\xe7\x99\x8f\x96\xde4\x03\x9a\?\r\xc1&lt;\xe5\x9a\\\xc6\xc2\xbd\)\xf6\xbb\xaeo\x85z\xf8\xae&apos;x\xfc\xc0\)\xd2\xe9%\xc6\xfe\]\xb2\xc4\xffZv\xbd&lt;\xa5C\xaas&apos;s\xbeg\x7f\x10\x8f@\xfaq\xfe\x13cQ\x0e\xa3\x107A7-\xca5\]V\xd9E\xac\xe4xG\x05=\xd2\xe8z\xc6\x83\x85\xcdX\x05\xc2\xbd\xf8t\x081\xc4od\xd7&apos;\xf3\xab6W\x02\x16\|\x0e\xb8@\xbaXF=\]\xde\x9c\x07`K\x8e\xaa!\xcc1A\xae\xc7\x11\xec3\xd11\x1a\xa9\x90\xf1\xf7\+2%\x9b%A\x13\xf8Z\xfa\xf9\]O\xb3\x0bM\^\xb7\xc7~\xed\xc6\xaai\x83\x91\xb1\xd2\xebq\xd7E\xd6\xe4\xc9&amp;\xc9\&quot;\xb3\[j\)k\x8c\x83\$-:A\xc6\x18\xeb\xa5\xc8\x17\xc8\]\x89I\x91\xe0\x96\xd8\xd9Z\)S5\xa6\x18QSs\x9d\x95\x18\xe4\xdcX\xeeb\x0bn\xd4\xea=\)ko\xef\x1a\xa1m\xfb\xf6\?\xf4\xb8\xbe\xe4`m\xc9\x96\xe6\x16\xeak!\xb7&amp;\xc1XNvD\xae\\\x03m\x18\xd9\x8a\xd9E\xb9h\x0c\xf0\xe8\xfa\x98\x83o\xd9\x1d;\xf6\&quot;\x83TB\x05d\xc8\xae\x85\x9f\xce\x03\xc4\x7f\xcf`Tr\xe3q\x038\x17s\x8f\xbd4\|pU\xb6\[~rbJ0JlE\(\xab\xbb\x85\xf9\x07\xdb\xf6\x952N\xb1\x9a\xea\x97VWV\x7fY\xf7B\xc7\xd1\*\x9b\xff\x11\xe4\xd0J\xa7\xb2Zp&apos;\xf4\xeb%j&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  X11Probe: &#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE("><elem key="X11Probe">&#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE(</elem>
+</script></port>
+<port protocol="tcp" portid="7443"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="oracleas-https" servicefp="SF-Port7443-TCP:V=7.60%T=SSL%I=7%D=3/12%Time=622CC0AD%P=x86_64-pc-linux-gnu%r(HTTPOptions,FC,&quot;HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:47:57\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2080\r\nAllow:\x20\r\nConnection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=UTF-8\r\n\r\n405\x20Method\x20Not\x20Allowed\n\nThe\x20method\x20OPTIONS\x20is\x20not\x20allowed\x20for\x20this\x20resource\.\x20\n\n\x20&quot;)%r(RTSPRequest,B5,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:47:57\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2021\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\nSorry,\x20page\x20not\x20found&quot;)%r(Help,B5,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:48:12\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2021\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\nSorry,\x20page\x20not\x20found&quot;)%r(SSLSessionReq,B5,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:48:13\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2021\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\nSorry,\x20page\x20not\x20found&quot;)%r(TLSSessionReq,B5,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:48:13\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2021\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\nSorry,\x20page\x20not\x20found&quot;)%r(Kerberos,B5,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:48:13\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2021\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\nSorry,\x20page\x20not\x20found&quot;)%r(FourOhFourRequest,F8,&quot;HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nDate:\x20Sat,\x2012\x20Mar\x202022\x2015:48:24\x20GMT\r\nServer:\x20\x20\r\nContent-Length:\x2076\r\nAllow:\x20\r\nConnection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=UTF-8\r\n\r\n405\x20Method\x20Not\x20Allowed\n\nThe\x20method\x20GET\x20is\x20not\x20allowed\x20for\x20this\x20resource\.\x20\n\n\x20&quot;);" tunnel="ssl" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.1 405 Method Not Allowed&#xa;    Date: Sat, 12 Mar 2022 15:48:24 GMT&#xa;    Server: &#xa;    Content-Length: 76&#xa;    Allow: &#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=UTF-8&#xa;    Method Not Allowed&#xa;    method GET is not allowed for this resource.&#xa;  HTTPOptions: &#xa;    HTTP/1.1 405 Method Not Allowed&#xa;    Date: Sat, 12 Mar 2022 15:47:57 GMT&#xa;    Server: &#xa;    Content-Length: 80&#xa;    Allow: &#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=UTF-8&#xa;    Method Not Allowed&#xa;    method OPTIONS is not allowed for this resource.&#xa;  Help: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:48:12 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found&#xa;  Kerberos, SSLSessionReq, TLSSessionReq: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:48:13 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found&#xa;  RTSPRequest: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:47:57 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found"><elem key="FourOhFourRequest">&#xa;    HTTP/1.1 405 Method Not Allowed&#xa;    Date: Sat, 12 Mar 2022 15:48:24 GMT&#xa;    Server: &#xa;    Content-Length: 76&#xa;    Allow: &#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=UTF-8&#xa;    Method Not Allowed&#xa;    method GET is not allowed for this resource.</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 405 Method Not Allowed&#xa;    Date: Sat, 12 Mar 2022 15:47:57 GMT&#xa;    Server: &#xa;    Content-Length: 80&#xa;    Allow: &#xa;    Connection: close&#xa;    Content-Type: text/plain; charset=UTF-8&#xa;    Method Not Allowed&#xa;    method OPTIONS is not allowed for this resource.</elem>
+<elem key="Help">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:48:12 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found</elem>
+<elem key="Kerberos, SSLSessionReq, TLSSessionReq">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:48:13 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Date: Sat, 12 Mar 2022 15:47:57 GMT&#xa;    Server: &#xa;    Content-Length: 21&#xa;    Connection: close&#xa;    Content-Type: text/html; charset=iso-8859-1&#xa;    Sorry, page not found</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="161"/>
+<portused state="closed" proto="tcp" portid="3128"/>
+<osmatch name="Linux 3.12 - 4.4" accuracy="96" line="60737">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="96"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt Kamikaze 7.09 (Linux 2.6.22)" accuracy="92" line="58653">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.22</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10" accuracy="92" line="60339">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.10</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34)" accuracy="91" line="44025">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4</cpe></osclass>
+</osmatch>
+<osmatch name="OpenWrt White Russian 0.9 (Linux 2.4.30)" accuracy="91" line="44064">
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="2.4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.4.30</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.18" accuracy="90" line="61271">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3.18</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="90" line="53738">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Crestron XPanel control system" accuracy="88" line="18644">
+<osclass type="specialized" vendor="Crestron" osfamily="2-Series" accuracy="88"><cpe>cpe:/o:crestron:2_series</cpe></osclass>
+</osmatch>
+<osmatch name="HP P2000 G3 NAS device" accuracy="88" line="32611">
+<osclass type="storage-misc" vendor="HP" osfamily="embedded" accuracy="88"><cpe>cpe:/h:hp:p2000_g3</cpe></osclass>
+</osmatch>
+<osmatch name="ProVision-ISR security DVR" accuracy="88" line="56920">
+<osclass type="media device" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="88"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+</osmatch>
+</os>
+<tcpsequence index="260" difficulty="Good luck!" values="679A6651,5D73F9BF,BADDF1E7,C485F55C,811BF670,4DC438C4"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="none returned (unsupported)"/>
+<times srtt="37807" rttvar="562" to="100000"/>
+</host>
+<host starttime="1647099937" endtime="1647100232"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="36.110.116.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.116.110.36.static.bjtelecom.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="244">
+<extrareasons reason="no-responses" count="244"/>
+</extraports>
+<extraports state="closed" count="3">
+<extrareasons reason="resets" count="3"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="105"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-IIS/7.5"><elem>Microsoft-IIS/7.5</elem>
+</script></port>
+<port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="44"/><service name="snmp" servicefp="SF-Port161-TCP:V=7.60%I=7%D=3/12%Time=622CC0D1%P=x86_64-pc-linux-gnu%r(X11Probe,35C,&quot;l\0\x0b\0\0\0\0\0P\x03\0\0%\xf9\x81eu\xe9\^\xd3B\xf0T\0\x7f&lt;\xd0\xa3\x84\xbcF\xafK\xd7\xa6\0\xcb\x08\xbd\xf3\x98C\xfb#@l\x9a~\xf8\x90\xd8\n&lt;\x84\xd8\x8b\xa9\xee\xee\xe0\xfa\x8eH\xd2\xdb\x16\xf9\xe2o\xaf\xe4\x13\x8a\xb8\xa7%\xfe\xd1\xae\x16\x9e\x01\xfc\xd7\xa3\0\x98\x1d\x92\xb1e\xad\xfc\xbaC\xdf\xef\x949\x0f\x954\xd1\xcdr\xf2\x9d\x89\)\x9e\x06s\x8e\x06W\x13\xa3eP\xd2;\xf3\xcb\xa0\xdf2%\xcbeG\xc8\xc5\x95\x8c\xeeD\xf2\*=\xc7\xec\xe9o\+\xdf\]\xb8&amp;\x02C\x83\xb2t\xec\xf3\x0c~\xf7&amp;\\\xb8\x17n\xaa\x80\xaf\xfd\x98\(\(\xf5\xefi\xf0\|\|A\x06\xf7\x14L\x9b\x94a\x92\x89y\xc8\xd0\xea\xbe\x1e&gt;\)\xcb\x14\x84X\x14W\xb0B\xb3Qv\xac\xb3Z\xc9\rL\xf3\xc0v\xe6\xfc\x1e\x13\)I0\xbc\x9dL\xdd\x940\xa6\x9f\x15\xb7\xb3\x90\xdb\xf3I\x16D\x1f&amp;\x9c\xbc\x94\xbc\0\xd88r\x20j\xf4\xfd\r\xd2\x19\xe4VTk&apos;\xcb\xc1\&quot;=\xb8\x8ee\xfc:\xcd&amp;j\x05\xf0r\xdd\x85\xd7J\&quot;\xbc6\x83HQ\xa1\x9e\x82\xdb\xc3\^\xad\xe5\xa81w\xf8\xf3\xd2t\xe9\xb0\x0eY\xa4wg\xefm\xbf\xba\x96b;\xf6\xbc\x81\xd8\xb2\xaa\xe5\x05\xa5\xf7\x1f\x8c\xd6\xb0\xa4\x8b8S\x98\]E\r\xdfA\x1c\xe2\xd9\xda\xc2\x85/\xd6-\xc5\x9fN\x19\xb0\x1e\x10\xa8\x16j\xd4\xc4\x93\xae\x9c\xfe\^\r\x10L\xcew\xbb\x87\xeb\xd6\xc8\xe7\xbfr\xe1JADZ\xb3\xee\xb5\xa1\xcc\x02w\x07\x80\xb7KzN\xf7R\xfb\x18nP\x055\|\xa5\xb0\x03z\xff\x8c\xb5zEg\x90\xbc\xab\x13\xe0\x0b@\xec\x9f\t\x87\x03\x05\xbb\xf5\x0c\xac1g\x06@%\)\xceq\)\xbdF\x9d3\xbdC:\xc1\&quot;\xa0\xa16J\x1a1\x1d\xf5fvWh\xc3\x89\x89,\r\xa5\xec_\xb3\xc4\xc05\xa9W\x11\xd3\xaax6wFE\x9f:\xcd\[b\+v\xd8:\xfaN=,\xea\xe0GmE\x05\xe7\x99\x8f\x96\xde4\x03\x9a\?\r\xc1&lt;\xe5\x9a\\\xc6\xc2\xbd\)\xf6\xbb\xaeo\x85z\xf8\xae&apos;x\xfc\xc0\)\xd2\xe9%\xc6\xfe\]\xb2\xc4\xffZv\xbd&lt;\xa5C\xaas&apos;s\xbeg\x7f\x10\x8f@\xfaq\xfe\x13cQ\x0e\xa3\x107A7-\xca5\]V\xd9E\xac\xe4xG\x05=\xd2\xe8z\xc6\x83\x85\xcdX\x05\xc2\xbd\xf8t\x081\xc4od\xd7&apos;\xf3\xab6W\x02\x16\|\x0e\xb8@\xbaXF=\]\xde\x9c\x07`K\x8e\xaa!\xcc1A\xae\xc7\x11\xec3\xd11\x1a\xa9\x90\xf1\xf7\+2%\x9b%A\x13\xf8Z\xfa\xf9\]O\xb3\x0bM\^\xb7\xc7~\xed\xc6\xaai\x83\x91\xb1\xd2\xebq\xd7E\xd6\xe4\xc9&amp;\xc9\&quot;\xb3\[j\)k\x8c\x83\$-:A\xc6\x18\xeb\xa5\xc8\x17\xc8\]\x89I\x91\xe0\x96\xd8\xd9Z\)S5\xa6\x18QSs\x9d\x95\x18\xe4\xdcX\xeeb\x0bn\xd4\xea=\)ko\xef\x1a\xa1m\xfb\xf6\?\xf4\xb8\xbe\xe4`m\xc9\x96\xe6\x16\xeak!\xb7&amp;\xc1XNvD\xae\\\x03m\x18\xd9\x8a\xd9E\xb9h\x0c\xf0\xe8\xfa\x98\x83o\xd9\x1d;\xf6\&quot;\x83TB\x05d\xc8\xae\x85\x9f\xce\x03\xc4\x7f\xcf`Tr\xe3q\x038\x17s\x8f\xbd4\|pU\xb6\[~rbJ0JlE\(\xab\xbb\x85\xf9\x07\xdb\xf6\x952N\xb1\x9a\xea\x97VWV\x7fY\xf7B\xc7\xd1\*\x9b\xff\x11\xe4\xd0J\xa7\xb2Zp&apos;\xf4\xeb%j&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  X11Probe: &#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE("><elem key="X11Probe">&#xa;    &amp;\xb8&#xa;    VTk&apos;&#xa;    JADZ&#xa;    fvWh&#xa;    x6wFE&#xa;    [b+v&#xa;    \xc6&#xa;    7A7-&#xa;    XF=]&#xa;    [j)k&#xa;    $-:A&#xa;    Z)S5&#xa;    =)ko&#xa;    XNvD&#xa;    \x03m&#xa;    4|pU&#xa;    [~rbJ0JlE(</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="21"/>
+<osmatch name="Microsoft Windows 7 SP1 or Windows Server 2008 SP2" accuracy="95" line="72979">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="95"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2008::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1 or Windows Server 2008" accuracy="91" line="72912">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="91"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 Ultimate" accuracy="91" line="73040">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="91"><cpe>cpe:/o:microsoft:windows_7:::ultimate</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 8.1" accuracy="91" line="73323">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="8.1" accuracy="91"><cpe>cpe:/o:microsoft:windows_8.1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista Home Premium SP1, Windows 7, or Windows Server 2008" accuracy="90" line="75093">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="90"><cpe>cpe:/o:microsoft:windows_vista::sp1:home_premium</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="90"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="90"><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 R2" accuracy="89" line="70440">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="89"><cpe>cpe:/o:microsoft:windows_server_2008:r2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Windows 7 SP1" accuracy="89" line="73161">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="89"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Vista SP1" accuracy="89" line="75331">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="Vista" accuracy="89"><cpe>cpe:/o:microsoft:windows_vista::sp1</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows Server 2008 or 2008 Beta 3" accuracy="88" line="70187">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="88"><cpe>cpe:/o:microsoft:windows_server_2008::beta3</cpe><cpe>cpe:/o:microsoft:windows_server_2008</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7 SP1" accuracy="88" line="72696">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="88"><cpe>cpe:/o:microsoft:windows_7::sp1</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="15155812" lastboot="Sat Sep 18 13:53:40 2021"/>
+<tcpsequence index="264" difficulty="Good luck!" values="C2D39492,9AFEC3F1,2684A411,B2345087,3E9E949A,3AC4E1BC"/>
+<ipidsequence class="Incremental" values="4566,4567,4568,456B,456C,456D"/>
+<tcptssequence class="100HZ" values="5A55E4E8,5A55E4F2,5A55E4FC,5A55E506,5A55E510,5A55E51B"/>
+<times srtt="38955" rttvar="1181" to="100000"/>
+</host>
+<taskprogress task="SYN Stealth Scan" time="1647100447" percent="85.90" remaining="36" etc="1647100482"/>
+<taskprogress task="SYN Stealth Scan" time="1647100448" percent="85.92" remaining="36" etc="1647100483"/>
+<taskprogress task="SYN Stealth Scan" time="1647100448" percent="85.95" remaining="36" etc="1647100483"/>
+<taskprogress task="SYN Stealth Scan" time="1647100448" percent="85.95" remaining="36" etc="1647100483"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="85.96" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="85.96" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="85.97" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="85.97" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="85.97" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="86.01" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100449" percent="86.03" remaining="36" etc="1647100484"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.10" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.13" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.14" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.14" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.16" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.16" remaining="36" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.17" remaining="35" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.19" remaining="35" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.19" remaining="35" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.20" remaining="35" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.21" remaining="35" etc="1647100485"/>
+<taskprogress task="SYN Stealth Scan" time="1647100450" percent="86.22" remaining="35" etc="1647100485"/>
+
+<runstats><finished time="1518405307" timestr="Sun Feb 11 22:15:07 2018" elapsed="396.80" summary="Nmap done at Sun Feb 11 22:15:07 2018; 256 IP addresses (136 hosts up) scanned in 396.80 seconds" exit="success"/><hosts up="136" down="120" total="256"/>
+            </runstats>
+            </nmaprun>

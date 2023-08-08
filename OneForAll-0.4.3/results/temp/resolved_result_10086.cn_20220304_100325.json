@@ -1,0 +1,1 @@
+{"name":"localhost.mail.10086.cn.","type":"A","class":"IN","status":"NOERROR","data":{"answers":[{"ttl":3600,"type":"A","class":"IN","name":"localhost.mail.10086.cn.","data":"127.0.0.1"}]},"resolver":"1.0.0.1:53"}

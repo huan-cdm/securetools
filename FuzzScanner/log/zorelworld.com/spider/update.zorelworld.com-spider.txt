@@ -1,0 +1,16 @@
+############################## VisitedUrl ##############################
+http://update.zorelworld.com
+http://update.zorelworld.com//
+https://update.zorelworld.com/css/app.css
+https://update.zorelworld.com/css/jquerytable.css
+https://update.zorelworld.com/css/element/huise/index.css
+https://update.zorelworld.com/js/app.js
+https://update.zorelworld.com/js/jquery.min.js
+https://update.zorelworld.com/js/datatables/jquery.dataTables.js
+############################## UnVisitedUrl ##############################
+http://update.zorelworld.com/#
+http://update.zorelworld.com/
+############################## External_link ##############################
+http://datatables.net
+http://www.zorelworld.com/
+############################## Active_link ##############################

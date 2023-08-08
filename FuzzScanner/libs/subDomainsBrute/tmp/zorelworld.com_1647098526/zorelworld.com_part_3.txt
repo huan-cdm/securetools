@@ -1,0 +1,3 @@
+cloud.zorelworld.com
+nas.zorelworld.com
+ti.zorelworld.com

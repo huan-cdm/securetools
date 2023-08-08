@@ -1,0 +1,87 @@
+	14.17.27.11|up|Linux 2.6.32|
+		80|open|tcp|http|NWS_TEST |###|14.17.27.11|404 Not Found||NWS_TEST||
+
+	14.17.27.16|up|Linux 2.6.32|
+		443|open|tcp|http|nginx |###|
+
+	14.17.27.23|up|IPCop 2 firewall (Linux 3.4)|
+		443|open|tcp|https|stgw |###|
+
+	14.17.27.35|up||
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|stgw |###|
+
+	14.17.27.42|up|Linux 2.6.32|
+		80|open|tcp|http|Apache/2.4.6 (CentOS) |###|
+
+	14.17.27.47|up||
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|WebServer |###|
+
+	14.17.27.48|up|Linux 2.6.32|
+		443|open|tcp|http|nginx |###|
+
+	14.17.27.50|up|Linux 2.6.32|
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|http|nginx 1.16.1|###|
+
+	14.17.27.54|up||
+		80|open|tcp|nagios-nsca|Nagios NSCA |###
+		443|open|tcp|nagios-nsca|Nagios NSCA |###
+
+	14.17.27.65|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|stgw |###|14.17.27.65|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|stgw||
+
+	14.17.27.70|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|stgw |###|
+
+	14.17.27.73|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|http|stgw |###|
+
+	14.17.27.74|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|http| |###|
+		443|open|tcp|https| |###|
+		8080|open|tcp|http-proxy| |###|
+
+	14.17.27.81|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|http|ZTC |###|
+
+	14.17.27.83|up|Blue Coat PacketShaper appliance|
+		443|open|tcp|https| |###|
+
+	14.17.27.87|up|Blue Coat PacketShaper appliance|
+		7070|open|tcp|realserver| |###
+
+	14.17.27.88|up|Blue Coat PacketShaper appliance|
+		7070|open|tcp|realserver| |###
+
+	14.17.27.94|up|Blue Coat PacketShaper appliance|
+		80|open|tcp|nagios-nsca|Nagios NSCA |###
+		443|open|tcp|nagios-nsca|Nagios NSCA |###
+
+	14.17.27.97|up||
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|stgw |###|
+
+	14.17.27.98|up|Linux 2.6.18 - 2.6.22|
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|stgw |###|
+		10443|open|tcp|unknown| |###
+
+	14.17.27.101|up|Linux 2.6.32|
+		80|open|tcp|http|nginx |###|
+		443|open|tcp|http|OpenResty web app server |###|
+		8002|open|tcp|teradataordbms| |###
+
+	14.17.27.102|up|Linux 2.6.32|
+		443|open|tcp|http|nginx |###|
+
+	14.17.27.110|up|Linux 2.6.32|
+		443|open|tcp|http|Node.js Express framework |###|
+
+	14.17.27.115|up||
+		80|open|tcp|http|stgw |###|
+		443|open|tcp|https|WebServer |###|
+

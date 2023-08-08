@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Mar 12 23:22:57 2022 as: nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/cloud.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 cloud.zorelworld.com -->
+<nmaprun scanner="nmap" args="nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/cloud.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 cloud.zorelworld.com" start="1647098577" startstr="Sat Mar 12 23:22:57 2022" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="1,11,13,15,17,19,21-22,80,443,992,1000,5555,8443,8888,9999-10001,60010"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1647098581" endtime="1647098642"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="124.127.209.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cloud.zorelworld.com" type="user"/>
+<hostname name="46.209.127.124.broad.bj.bj.static.163data.com.cn" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="10">
+<extrareasons reason="no-responses" count="10"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="nginx" version="1.20.1" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.20.1</cpe></service><script id="http-server-header" output="nginx/1.20.1"><elem>nginx/1.20.1</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="nginx" version="1.20.1" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.20.1</cpe></service><script id="http-server-header" output="nginx/1.20.1"><elem>nginx/1.20.1</elem>
+</script></port>
+<port protocol="tcp" portid="1000"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="5555"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="SoftEther VPN httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:university_of_tsukuba:softether_vpn</cpe></service></port>
+<port protocol="tcp" portid="8888"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="nginx" version="1.10.3" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.10.3</cpe></service><script id="http-server-header" output="nginx/1.10.3 (Ubuntu)"><elem>nginx/1.10.3 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="9999"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+<port protocol="tcp" portid="10001"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="nginx" version="1.10.3" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.10.3</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-server-header" output="nginx/1.10.3 (Ubuntu)"><elem>nginx/1.10.3 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="60010"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-server-header" output="nginx"><elem>nginx</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 4.4" accuracy="100" line="64145">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4.4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="319711" lastboot="Wed Mar  9 06:35:31 2022"/>
+<tcpsequence index="261" difficulty="Good luck!" values="91B79F5A,103918FF,592E6221,7F01D648,2FB5598,758A7595"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="130DE984,130DE9E8,130DEA4C,130DEAB0,130DEB14,130DEB78"/>
+<times srtt="36960" rttvar="1861" to="100000"/>
+</host>
+<runstats><finished time="1647098642" timestr="Sat Mar 12 23:24:02 2022" elapsed="67.59" summary="Nmap done at Sat Mar 12 23:24:02 2022; 1 IP address (1 host up) scanned in 67.59 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

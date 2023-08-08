@@ -1,0 +1,229 @@
+############################## sandbox.zorelworld.com ##############################
+
+http://sandbox.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+124.127.209.46 is repeated with others in this file.
+
+--------------------DirSearch_bg: sandbox.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: sandbox.zorelworld.com--------------------
+
+
+############################## ti.zorelworld.com ##############################
+
+http://ti.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+124.127.209.46 is repeated with others in this file.
+
+--------------------DirSearch_bg: ti.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: ti.zorelworld.com--------------------
+
+
+############################## ir.zorelworld.com ##############################
+
+http://ir.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+124.127.209.46 is repeated with others in this file.
+
+--------------------DirSearch_bg: ir.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: ir.zorelworld.com--------------------
+
+
+############################## url.zorelworld.com ##############################
+
+http://url.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+124.127.209.46 is repeated with others in this file.
+
+--------------------DirSearch_bg: url.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: url.zorelworld.com--------------------
+
+
+############################## update.zorelworld.com ##############################
+
+http://update.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+124.127.209.46 is repeated with others in this file.
+
+--------------------DirSearch_bg: update.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: update.zorelworld.com--------------------
+
+
+############################## zorelworld.com ##############################
+
+http://zorelworld.com|182.92.154.36|200 OK|中睿天下_威胁监测 攻击溯源|nginx|PHP/5.2.17p1|NoWaf
+182.92.154.36 is repeated with others in this file.
+
+--------------------DirSearch_bg: zorelworld.com--------------------
+None
+--------------------DirSearch_ok: zorelworld.com--------------------
+
+
+############################## crm.zorelworld.com ##############################
+
+http://crm.zorelworld.com|host_down
+
+
+--------------------DirSearch_bg: crm.zorelworld.com--------------------
+
+--------------------DirSearch_ok: crm.zorelworld.com--------------------
+
+
+############################## nas.zorelworld.com ##############################
+
+http://nas.zorelworld.com|host_down
+
+
+--------------------DirSearch_bg: nas.zorelworld.com--------------------
+
+--------------------DirSearch_ok: nas.zorelworld.com--------------------
+
+
+############################## upgrade.zorelworld.com ##############################
+
+http://upgrade.zorelworld.com|host_down
+
+
+--------------------DirSearch_bg: upgrade.zorelworld.com--------------------
+
+--------------------DirSearch_ok: upgrade.zorelworld.com--------------------
+
+
+############################## kb.zorelworld.com ##############################
+
+http://kb.zorelworld.com|host_down
+
+
+--------------------DirSearch_bg: kb.zorelworld.com--------------------
+
+--------------------DirSearch_ok: kb.zorelworld.com--------------------
+
+
+############################## hao123.zorelworld.com ##############################
+
+http://hao123.zorelworld.com|host_down
+
+
+--------------------DirSearch_bg: hao123.zorelworld.com--------------------
+
+--------------------DirSearch_ok: hao123.zorelworld.com--------------------
+
+
+############################## www.zorelworld.com ##############################
+
+http://www.zorelworld.com|182.92.154.36|200 OK|中睿天下_威胁监测 攻击溯源|nginx|PHP/5.2.17p1|NoWaf
+	182.92.154.36|up|Linux 2.6.32 - 3.13|www.zorelworld.com
+		22|open|tcp|ssh|OpenSSH 5.3|protocol 2.0###
+		80|open|tcp|http|nginx |###|182.92.154.36|200 OK|中睿天下_威胁监测 攻击溯源|nginx|PHP/5.2.17p1|
+
+
+--------------------DirSearch_bg: 182.92.154.36:80--------------------
+None
+--------------------DirSearch_ok: 182.92.154.36:80--------------------
+
+
+--------------------DirSearch_bg: www.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: www.zorelworld.com--------------------
+
+
+############################## mail.zorelworld.com ##############################
+
+http://mail.zorelworld.com|113.96.233.155|200 OK|Ѷҵ-¼|nginx||NoWaf
+	113.96.233.155|up||mail.zorelworld.com
+		80|open|tcp|http|nginx |###|113.96.233.155|404 Not Found|404 Not Found|nginx||
+		443|open|tcp|http|nginx |###|113.96.233.155|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+
+
+--------------------DirSearch_bg: 113.96.233.155:80--------------------
+None
+--------------------DirSearch_ok: 113.96.233.155:80--------------------
+
+--------------------DirSearch_bg: 113.96.233.155:443--------------------
+None
+--------------------DirSearch_ok: 113.96.233.155:443--------------------
+
+
+--------------------DirSearch_bg: mail.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: mail.zorelworld.com--------------------
+
+
+############################## cloud.zorelworld.com ##############################
+
+http://cloud.zorelworld.com|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||NoWaf
+	124.127.209.46|up|Linux 4.4|cloud.zorelworld.com
+		80|open|tcp|http|nginx 1.20.1|###|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||
+		443|open|tcp|http|nginx 1.20.1|###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx/1.20.1||
+		1000|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		5555|open|tcp|http|SoftEther VPN httpd |###|
+		8888|open|tcp|http|nginx 1.10.3|###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|Ubuntu Linux||
+		9999|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		10000|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		10001|open|tcp|http|nginx 1.10.3|Linux###|124.127.209.46|302 Found|302 Found|Ubuntu Linux||
+		60010|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+
+
+--------------------DirSearch_bg: 124.127.209.46:80--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:80--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:443--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:443--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:1000--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:1000--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:5555--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:5555--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:8888--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:8888--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:9999--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:9999--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:10000--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:10000--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:10001--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:10001--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:60010--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:60010--------------------
+
+
+--------------------DirSearch_bg: cloud.zorelworld.com--------------------
+None
+--------------------DirSearch_ok: cloud.zorelworld.com--------------------
+
+
+############################## jira.zorelworld.com ##############################
+
+http://jira.zorelworld.com|host_down
+	36.110.116.43|up|Linux 4.0|jira.zorelworld.com
+		5555|open|tcp|http|SoftEther VPN httpd |###|
+		8443|open|tcp|https-alt|HTTP Server 1.0 |###|
+
+
+--------------------DirSearch_bg: 36.110.116.43:5555--------------------
+None
+--------------------DirSearch_ok: 36.110.116.43:5555--------------------
+
+--------------------DirSearch_bg: 36.110.116.43:8443--------------------
+None
+--------------------DirSearch_ok: 36.110.116.43:8443--------------------
+
+
+--------------------DirSearch_bg: jira.zorelworld.com--------------------
+
+--------------------DirSearch_ok: jira.zorelworld.com--------------------
+
+

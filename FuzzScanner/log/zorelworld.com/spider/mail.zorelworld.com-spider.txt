@@ -1,0 +1,48 @@
+############################## VisitedUrl ##############################
+http://mail.zorelworld.com
+http://mail.zorelworld.com//
+http://mail.zorelworld.com//cgi-bin/loginpage?t=qq_loginpage
+http://mail.zorelworld.com//cgi-bin/readtemplate?check=false&t=biz_rf_portal#recovery
+http://mail.zorelworld.com//qy_mng_logic/proxy/qrcode/login
+http://mail.zorelworld.com//qy_mng_logic/proxy/qrcode/login?style_type=7&login_from=
+http://mail.zorelworld.com//cgi-bin/getverifyimage?aid=23000101&r=0
+http://mail.zorelworld.com//qy_mng_logic/wwlogin/login_qrcode?style_type=2&login_from=mail_login_zorelworld.com
+http://mail.zorelworld.com//cgi-bin/getverifyimage?aid=23000101&",Math.random(),"
+http://mail.zorelworld.com//cgi-bin/login
+http://mail.zorelworld.com///tajs.qq.com/stats?sId=32365620
+http://mail.zorelworld.com//qy_mng_logic/wwlogin/custom/login_qrcode?layout=
+############################## UnVisitedUrl ##############################
+############################## External_link ##############################
+https://ssl.captcha.qq.com/TCaptcha.js
+https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/newlogin/custom_login_default55e175.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/home/new_index/pkg5b1533.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/lib/promise/es6-promise384711.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/all5c4597.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/3rd/bj-report-tryjs.min362537.js
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/style/new_login/login593338.css
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/style/new_index/signup478141.css
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/style/biz_v3_helper50ea23.css
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/style/bizmail411ba6.css
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/style/comm5514db.css
+http://rescdn.qqmail.com/bizmail/zh_CN/htmledition/js_biz/lib/jquery/jquery-1.11.0.min37fecf.js
+https://beian.miit.gov.cn/
+https://work.weixin.qq.com/help?h=e
+https://exmail.qq.com/cgi-bin/bizmail_portal?t=bizmail_eula
+http://www.tencent.com/
+https://exmail.qq.com/login
+http://exmail.qq.com/login
+https://work.weixin.qq.com/help?person_id=0&doc_id=345&helpType=exmail
+https://exmail.qq.com
+############################## Active_link ##############################
+http://mail.zorelworld.com//cgi-bin/loginpage?t=qq_loginpage
+http://mail.zorelworld.com//cgi-bin/readtemplate?check=false&t=biz_rf_portal#recovery
+http://mail.zorelworld.com//qy_mng_logic/proxy/qrcode/login?style_type=7&login_from=
+http://mail.zorelworld.com//cgi-bin/getverifyimage?aid=23000101&r=0
+http://mail.zorelworld.com//qy_mng_logic/wwlogin/login_qrcode?style_type=2&login_from=mail_login_zorelworld.com
+http://mail.zorelworld.com//cgi-bin/getverifyimage?aid=23000101&",Math.random(),"
+http://mail.zorelworld.com///tajs.qq.com/stats?sId=32365620
+http://mail.zorelworld.com//qy_mng_logic/wwlogin/custom/login_qrcode?layout=
+https://work.weixin.qq.com/help?h=e
+https://exmail.qq.com/cgi-bin/bizmail_portal?t=bizmail_eula
+https://work.weixin.qq.com/help?person_id=0&doc_id=345&helpType=exmail

@@ -1,0 +1,19 @@
+	36.110.116.41|up|Cisco 1921 router (IOS 15.1)|41.116.110.36.static.bjtelecom.net
+		179|open|tcp|bgp| |connection rejected###
+
+	36.110.116.43|up|Linux 4.0|43.116.110.36.static.bjtelecom.net
+		992|open|tcp|http|SoftEther VPN httpd |###|
+		5555|open|tcp|http|SoftEther VPN httpd |###|
+		8443|open|tcp|https-alt|HTTP Server 1.0 |###|
+
+	36.110.116.114|up|Linux 3.12 - 4.4|114.116.110.36.static.bjtelecom.net
+		161|open|tcp|snmp| |###
+
+	36.110.116.115|up|Linux 3.12 - 4.4|115.116.110.36.static.bjtelecom.net
+		161|open|tcp|snmp| |###
+		7443|open|tcp|oracleas-https| |###|
+
+	36.110.116.116|up|Microsoft Windows 7 SP1 or Windows Server 2008 SP2|116.116.110.36.static.bjtelecom.net
+		80|open|tcp|http|Microsoft IIS httpd 7.5|Windows###|
+		161|open|tcp|snmp| |###
+

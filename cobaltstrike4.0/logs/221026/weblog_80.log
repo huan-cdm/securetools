@@ -1,0 +1,4 @@
+39.144.7.83 unknown unknown [10/26 11:14:29 UTC] "GET /" 404 0 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+39.144.7.83 unknown unknown [10/26 11:14:47 UTC] "GET /" 404 0 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+39.144.7.83 unknown unknown [10/26 11:14:54 UTC] "GET /admin" 404 0 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+39.144.7.83 unknown unknown [10/26 11:17:04 UTC] "GET /WzY3/" 200 260679 "beacon beacon stager x64" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Sat Mar 12 23:22:57 2022 as: nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/upgrade.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 upgrade.zorelworld.com -->
+<nmaprun scanner="nmap" args="nmap -oX /root/tools/FuzzScanner/log/zorelworld.com/sub/upgrade.zorelworld.com-nmap.xml -Pn -&#45;open -sS -sV -O -&#45;script=banner -p 1,11,13,15,17,19,21,22,80,443,992,1000,5555,8443,8888,9999,10000,10001,60010 upgrade.zorelworld.com" start="1647098577" startstr="Sat Mar 12 23:22:57 2022" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="19" services="1,11,13,15,17,19,21-22,80,443,992,1000,5555,8443,8888,9999-10001,60010"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1647098595" timestr="Sat Mar 12 23:23:15 2022" elapsed="21.52" summary="Nmap done at Sat Mar 12 23:23:15 2022; 1 IP address (1 host up) scanned in 21.52 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

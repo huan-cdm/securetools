@@ -1,0 +1,13 @@
+	113.96.233.155|up||mail.zorelworld.com
+		80|open|tcp|http|nginx |###|113.96.233.155|404 Not Found|404 Not Found|nginx||
+		443|open|tcp|http|nginx |###|113.96.233.155|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+
+
+--------------------DirSearch_bg: 113.96.233.155:80--------------------
+None
+--------------------DirSearch_ok: 113.96.233.155:80--------------------
+
+--------------------DirSearch_bg: 113.96.233.155:443--------------------
+None
+--------------------DirSearch_ok: 113.96.233.155:443--------------------
+

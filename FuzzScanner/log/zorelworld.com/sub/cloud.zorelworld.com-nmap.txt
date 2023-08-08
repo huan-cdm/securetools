@@ -1,0 +1,48 @@
+	124.127.209.46|up|Linux 4.4|cloud.zorelworld.com
+		80|open|tcp|http|nginx 1.20.1|###|124.127.209.46|301 Moved Permanently|301 Moved Permanently|nginx/1.20.1||
+		443|open|tcp|http|nginx 1.20.1|###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx/1.20.1||
+		1000|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		5555|open|tcp|http|SoftEther VPN httpd |###|
+		8888|open|tcp|http|nginx 1.10.3|###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|Ubuntu Linux||
+		9999|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		10000|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+		10001|open|tcp|http|nginx 1.10.3|Linux###|124.127.209.46|302 Found|302 Found|Ubuntu Linux||
+		60010|open|tcp|http|nginx |###|124.127.209.46|400 Bad Request|400 The plain HTTP request was sent to HTTPS port|nginx||
+
+
+--------------------DirSearch_bg: 124.127.209.46:80--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:80--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:443--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:443--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:1000--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:1000--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:5555--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:5555--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:8888--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:8888--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:9999--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:9999--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:10000--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:10000--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:10001--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:10001--------------------
+
+--------------------DirSearch_bg: 124.127.209.46:60010--------------------
+None
+--------------------DirSearch_ok: 124.127.209.46:60010--------------------
+

@@ -1,0 +1,15 @@
+sim.ecloud.10086.cn
+num.ecloud.10086.cn
+mnote.weibo.10086.cn
+ykt.10086.cn
+heyun.ecloud.10086.cn
+shequ.10086.cn
+12580.10086.cn
+js.10086.cn
+second.ecloud.10086.cn
+space.feixin.10086.cn
+nzt.12582.10086.cn
+12582.10086.cn
+zwy.12582.10086.cn
+localhost.mail.10086.cn
+v.mail.10086.cn
